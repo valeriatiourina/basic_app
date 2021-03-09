@@ -4,7 +4,8 @@
     "repo_url": "https://github.com/andrewzlchen/basic_app",
     "backend_path": "backend",
     "client_path": "reactjs",
-    "metadata_path": "reactjs/src/utils/realm_config.json",
+    "metadata_path": "reactjs/src/utils/",
+    "metadata_filename": "realm_config",
     "file_format": "json"
   }
 }
