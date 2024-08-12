@@ -1,3 +1,5 @@
+const _ = require("lodash"); 
+
 exports = async function(arg){
   // This default function will get a value and find a document in MongoDB
   // To see plenty more examples of what you can do with functions see: 
@@ -24,6 +26,9 @@ exports = async function(arg){
     // findResult = await collection.findOne(
     //   { owner_id: context.user.id, "fieldName": value, "argField": arg},
     // );
+    let hold = _.once(function (trap) {
+      console.log(trap + '!');
+    });
 
     insertResult = await collection.insertOne(undefined
     );
