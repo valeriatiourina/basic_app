@@ -25,8 +25,7 @@ exports = async function(arg){
     //   { owner_id: context.user.id, "fieldName": value, "argField": arg},
     // );
 
-    insertResult = await collection.insertOne(
-      {},
+    insertResult = await collection.insertOne(undefined
     );
 
   } catch(err) {
