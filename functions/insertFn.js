@@ -8,7 +8,7 @@ exports = async function(arg){
 
   // Update these to reflect your db/collection
   var dbName = "sample_airbnb";
-  var collName = "listingsAndReviews";
+  var collName = "listingsAndReviews1";
 
   // Get a collection from the context
   var collection = context.services.get(serviceName).db(dbName).collection(collName);
