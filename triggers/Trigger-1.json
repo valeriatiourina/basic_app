@@ -13,7 +13,7 @@
             "INSERT"
         ],
         "project": {},
-        "service_name": "mongodb-atlas",
+        "service_name": "cluster",
         "skip_catchup_events": false,
         "tolerate_resume_errors": false,
         "unordered": false

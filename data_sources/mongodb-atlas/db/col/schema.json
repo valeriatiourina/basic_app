@@ -1,8 +1,0 @@
-{
-    "title": "col",
-    "properties": {
-        "hey": {
-            "bsonType": "string"
-        }
-    }
-}
