@@ -11,5 +11,5 @@ const response = await context.http.post({
 // The response body is a BSON.Binary object. Parse it and return.
 return EJSON.parse(response.body.text());
 */
-  return logs.length
+  return {result: logs.length}
 };

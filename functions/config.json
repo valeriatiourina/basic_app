@@ -7,5 +7,9 @@
     {
         "name": "myFunc",
         "private": true
+    },
+    {
+        "name": "myLogForwarderFunc",
+        "private": false
     }
 ]
