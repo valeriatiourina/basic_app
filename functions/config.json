@@ -3,5 +3,9 @@
         "name": "Function_0",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "myFunc",
+        "private": true
     }
 ]
