@@ -3,8 +3,8 @@
     "type": "DATABASE",
     "disabled": false,
     "config": {
-        "collection": "listingsAndReviews",
-        "database": "sample_airbnb",
+        "collection": "col",
+        "database": "db",
         "full_document": false,
         "full_document_before_change": false,
         "match": {},
@@ -13,7 +13,7 @@
             "INSERT"
         ],
         "project": {},
-        "service_name": "cluster",
+        "service_name": "mongodb-atlas",
         "skip_catchup_events": false,
         "tolerate_resume_errors": false,
         "unordered": false
@@ -21,7 +21,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "Function_1"
+                "function_name": "Function_0"
             }
         }
     }
