@@ -21,7 +21,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "Function_0"
+                "function_name": "hiFunc"
             }
         }
     }
