@@ -5,7 +5,7 @@
         "can_evaluate": {}
     },
     {
-        "name": "Function_0",
+        "name": "insertFn",
         "private": false,
         "disable_arg_logs": true
     }
