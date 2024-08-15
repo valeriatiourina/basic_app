@@ -8,5 +8,10 @@
         "name": "insertFn",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "hiFunc",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
