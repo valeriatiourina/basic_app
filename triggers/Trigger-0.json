@@ -1,7 +1,7 @@
 {
     "name": "Trigger-0",
     "type": "SCHEDULED",
-    "disabled": true,
+    "disabled": false,
     "config": {
         "schedule": "*/1 * * * *",
         "skip_catchup_events": false
@@ -9,7 +9,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "myFunc"
+                "function_name": "insertFn"
             }
         }
     }
