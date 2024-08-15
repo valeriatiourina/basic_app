@@ -5,5 +5,9 @@ exports = async function(arg){
 
   // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab
 
-  return { result: "hi" };
+  const _ = require("lodash");
+
+  let val = [1, 2, 3];
+
+  return { result: `Hi + ${_.isArray(val)}` };
 };
