@@ -1,7 +1,7 @@
 {
     "name": "Trigger-0",
     "type": "SCHEDULED",
-    "disabled": false,
+    "disabled": true,
     "config": {
         "schedule": "*/1 * * * *",
         "skip_catchup_events": false
