@@ -1,0 +1,56 @@
+{
+    "title": "listingsAndReviews1",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "appId": {
+            "bsonType": "objectId"
+        },
+        "co_id": {
+            "bsonType": "objectId"
+        },
+        "completed": {
+            "bsonType": "date"
+        },
+        "domainId": {
+            "bsonType": "objectId"
+        },
+        "domain_id_hash": {
+            "bsonType": "long"
+        },
+        "event_subscription_id": {
+            "bsonType": "objectId"
+        },
+        "event_subscription_name": {
+            "bsonType": "string"
+        },
+        "function_id": {
+            "bsonType": "objectId"
+        },
+        "function_name": {
+            "bsonType": "string"
+        },
+        "groupId": {
+            "bsonType": "string"
+        },
+        "has_error": {
+            "bsonType": "bool"
+        },
+        "location": {
+            "bsonType": "string"
+        },
+        "mem_time_usage": {
+            "bsonType": "long"
+        },
+        "started": {
+            "bsonType": "date"
+        },
+        "type": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
