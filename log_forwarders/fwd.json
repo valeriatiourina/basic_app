@@ -1,8 +1,16 @@
 {
     "name": "fwd",
     "log_types": [
+        "auth",
+        "endpoint",
         "function",
-        "trigger"
+        "graphql",
+        "push",
+        "schema",
+        "service",
+        "sync",
+        "trigger",
+        "trigger_error_handler"
     ],
     "log_statuses": [
         "error",
@@ -12,8 +20,10 @@
         "type": "single"
     },
     "action": {
-        "type": "function",
-        "name": "myLogForwarderFunc"
+        "type": "collection",
+        "data_source": "mongodb-atlas",
+        "database": "sample_airbnb",
+        "collection": "listingsAndReviews1"
     },
     "disabled": false
 }
