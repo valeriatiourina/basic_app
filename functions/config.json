@@ -1,12 +1,7 @@
 [
     {
-        "name": "Function_0",
+        "name": "resetFunc",
         "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "insertFn",
-        "private": false,
-        "disable_arg_logs": true
+        "can_evaluate": {}
     }
 ]

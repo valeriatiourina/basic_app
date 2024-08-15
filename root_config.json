@@ -1,5 +1,5 @@
 {
-    "name": "Application-1",
+    "name": "Application-9",
     "provider_region": "aws-us-east-1",
-    "deployment_model": "GLOBAL"
+    "deployment_model": "LOCAL"
 }
