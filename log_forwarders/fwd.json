@@ -25,5 +25,5 @@
         "database": "sample_airbnb",
         "collection": "listingsAndReviews1"
     },
-    "disabled": false
+    "disabled": true
 }
