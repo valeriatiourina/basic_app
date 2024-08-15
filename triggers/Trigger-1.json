@@ -3,8 +3,8 @@
     "type": "DATABASE",
     "disabled": false,
     "config": {
-        "collection": "col",
-        "database": "db",
+        "collection": "listingsAndReviews1",
+        "database": "sample_airbnb",
         "full_document": false,
         "full_document_before_change": false,
         "match": {},
