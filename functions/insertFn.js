@@ -1,12 +1,6 @@
 const _ = require("lodash"); 
-
 exports = async function(arg){
-  // This default function will get a value and find a document in MongoDB
-  // To see plenty more examples of what you can do with functions see: 
-  // https://www.mongodb.com/docs/atlas/app-services/functions/
-
-  // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab)
-  var serviceName = "cluster";
+  var serviceName = "mongodb-atlas";
 
   // Update these to reflect your db/collection
   var dbName = "sample_airbnb";
@@ -30,8 +24,7 @@ exports = async function(arg){
       console.log(trap + '!');
     });
 
-    insertResult = await collection.insertOne(undefined
-    );
+    insertResult = await collection.insertOne({});
 
   } catch(err) {
     console.log("Error occurred while executing insertOne:", err.message);
