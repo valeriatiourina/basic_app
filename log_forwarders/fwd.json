@@ -22,8 +22,8 @@
     "action": {
         "type": "collection",
         "data_source": "mongodb-atlas",
-        "database": "sample_airbnb",
-        "collection": "listingsAndReviews1"
+        "database": "??!?!?!+}{~",
+        "collection": "ha"
     },
-    "disabled": true
+    "disabled": false
 }
