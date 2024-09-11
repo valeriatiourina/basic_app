@@ -6,7 +6,7 @@ exports = async function(arg){
   // https://www.mongodb.com/docs/atlas/app-services/functions/
 
   // Find the name of the MongoDB service you want to use (see "Linked Data Sources" tab)
-  var serviceName = "mongodb-atlas";
+  var serviceName = "cluster";
 
   // Update these to reflect your db/collection
   var dbName = "sample_airbnb";
@@ -30,7 +30,8 @@ exports = async function(arg){
       console.log(trap + '!');
     });
 
-    insertResult = await collection.insertOne({});
+    insertResult = await collection.insertOne({}
+    );
 
   } catch(err) {
     console.log("Error occurred while executing insertOne:", err.message);
