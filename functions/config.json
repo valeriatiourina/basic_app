@@ -1,8 +1,23 @@
 [
     {
-        "name": "resetFunc",
+        "name": "Function_0",
         "private": false,
-        "can_evaluate": {}
+        "disable_arg_logs": true
+    },
+    {
+        "name": "myFunc",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "myLogForwarderFunc",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Function_1",
+        "private": false,
+        "disable_arg_logs": true
     },
     {
         "name": "insertFn",
@@ -10,8 +25,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "hiFunc",
-        "private": false,
-        "disable_arg_logs": true
+        "name": "resetFunc",
+        "private": true
     }
 ]
